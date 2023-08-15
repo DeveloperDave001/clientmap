@@ -12,9 +12,10 @@
 
 #weert {
   width: 30vw;
+  border: #1d2803 solid 3px;
   position: absolute;
   top: 6.95vw;
-  left: 4.95vw;
+  left: 40vw;
   z-index: 2;
 }
 
