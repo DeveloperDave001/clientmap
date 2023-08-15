@@ -28,6 +28,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  height: 100vh;
 }
 .mapCase {
   width: 100%;
