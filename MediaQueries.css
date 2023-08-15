@@ -5,9 +5,13 @@
   } 
   .map{
     order:1;
+    border: #3a3a3a solid 3px;
+    height: 110vh;
+    background-color: #DFDFDF;
 }
 .map-information{
     order:2;   
+    
 }
 
 #weert {
@@ -47,6 +51,29 @@
   margin-left: 36.7vw;
   rotate: -0.3deg;
 }
+
+#Roerdalen {
+  width: 30.7vw;
+  position: absolute;
+  margin-top:20.4vw;
+  margin-left: 44.7vw;
+}
+
+#Echt-Susteren {
+  width: 29.4vw;
+  position: absolute;
+  margin-top: 27.4vw;
+  margin-left: 35.8vw;
+}
+
+#Sittard-Geleen {
+  width: 18.8vw;
+  position: absolute;
+  margin-top: 34.2vw;
+  margin-left: 33.15vw;
+}
+
+
 
 
 
