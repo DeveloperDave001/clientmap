@@ -11,21 +11,44 @@
 }
 
 #weert {
-  width: 30vw;
-  border: #1d2803 solid 3px;
+  width: 25.7vw;
   position: absolute;
-  top: 6.95vw;
-  margin-left: 20vw;
+  margin-top: 10vw;
+  margin-left: 19.7vw;
   z-index: 2;
 }
 #Nederweert {
-  width: 40vw;
+  width: 27.5vw;
   position: absolute;
-  margin-top:20vw;
-  margin-left: 8.25vw;
-  z-index: 1;
+  margin-top:3.3vw;
+  margin-left: 24.8vw;
   transition: all 0.3s ease;
 }
+
+#Leudal {
+  width: 31.3vw;
+  position: absolute;
+  margin-top:6.6vw;
+  margin-left: 32.2vw;
+  rotate: -deg;
+}
+
+#Roermond {
+  width: 20vw;
+  position: absolute;
+  margin-top:13.6vw;
+  margin-left: 44.8vw;
+}
+
+#Maasgouw {
+  width: 17.8vw;
+  position: absolute;
+  margin-top:18.3vw;
+  margin-left: 36.7vw;
+  rotate: -0.3deg;
+}
+
+
 
   #first-map-information {
     background-color: #94c128;
