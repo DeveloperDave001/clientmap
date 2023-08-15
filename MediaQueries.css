@@ -18,6 +18,14 @@
   margin-left: 20vw;
   z-index: 2;
 }
+#Nederweert {
+  width: 40vw;
+  position: absolute;
+  margin-top:20vw;
+  margin-left: 8.25vw;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
 
   #first-map-information {
     background-color: #94c128;
