@@ -2,16 +2,13 @@
 @media screen and (max-width: 767px){
   .hero {
     grid-template-columns: 1fr;
-  }
-
-  .mapCase img {
-    background-color: transparent;
-    transition: 0.5s;
-    opacity: 0.7;
-    zoom: 220%;
-    margin-top: -2vw;
-    margin-left: 5vw;
-  }
+  } 
+  .map{
+    order:1;
+}
+.map-information{
+    order:2;   
+}
 
   #first-map-information {
     background-color: #94c128;
