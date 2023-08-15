@@ -88,10 +88,10 @@
 }
 
 #Beekdaelen {
-  width: 28.7vw;
+  width: 28.5vw;
   position: absolute;
-  margin-top: 32.6vw;
-  margin-left: 26.4vw;
+  margin-top: 32.7vw;
+  margin-left: 26.6vw;
 }
 
 #Brunssum {
@@ -130,11 +130,43 @@
 }
 
 #Simpelveld {
-  width: 8.6vw;
+  width: 9vw;
   position: absolute;
-  margin-top: 47.8vw;
-  margin-left: 38.4vw;
+  margin-top: 47.9vw;
+  margin-left: 38.2vw;
 }
+
+#Valkenburg {
+  width: 16.9vw;
+  position: absolute;
+  margin-top: 44.1vw;
+  margin-left: 22.8vw;
+}
+
+#Meerssen {
+  width: 10.8vw;
+  position: absolute;
+  margin-top: 38.2vw;
+  margin-left: 20.5vw;
+}
+
+#Gulpen {
+  width: 19.8vw;
+  position: absolute;
+  margin-top: 49.2vw;
+  margin-left: 28.3vw;
+}
+
+#Vaals {
+  width: 13.5vw;
+  position: absolute;
+  margin-top: 54.5vw;
+  margin-left: 35.7vw;
+}
+
+
+
+
 
 
 
