@@ -10,6 +10,14 @@
     order:2;   
 }
 
+#weert {
+  width: 10vw;
+  position: absolute;
+  top: 6.95vw;
+  left: 4.95vw;
+  z-index: 2;
+}
+
   #first-map-information {
     background-color: #94c128;
     display: flex;
