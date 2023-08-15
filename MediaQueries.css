@@ -1,14 +1,16 @@
-/* MEDIA QUERIES */
+/* BEGINING OF MEDIA QUERIES */
+
 /* Media Querry for 781px */
 @media screen and (max-width: 781px){
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
     padding-top: 10vw;
     padding-bottom: 10vw;
+    padding-right: 100vw;
+  
 }
 .map-information{
     order:2;    
@@ -221,9 +223,8 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
     height: 110vh;
     background-color: #DFDFDF;
 }
@@ -433,9 +434,8 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
     height: 110vh;
     background-color: #DFDFDF;
 }
@@ -644,12 +644,11 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
-    height: 50vh;
+    height: 45vh;
     background-color: #DFDFDF;
-    padding-top: 50vw;
+    padding-top: 45vw;
 }
 .map-information{
     order:2;   
@@ -857,9 +856,8 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
     height: 45vh;
     padding-top: 60vw;
     background-color: #DFDFDF;
@@ -1070,11 +1068,10 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
     height: 20vh;
-    padding-top: 85vw;
+    padding-top: 80vw;
     background-color: #DFDFDF;
 }
 .map-information{
@@ -1283,10 +1280,9 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
-    height: 20vh;
+    height: 18vh;
     padding-top: 100vw;
     background-color: #DFDFDF;
 }
@@ -1496,9 +1492,8 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
     height: 20vh;
     padding-top: 100vw;
     background-color: #DFDFDF;
@@ -1709,11 +1704,10 @@
   .hero {
     grid-template-columns: 1fr;
   } 
-  .map{
+  #map{
     order:1;
-    border: #3a3a3a solid 3px;
-    height: 20vh;
-    padding-top: 100vw;
+    height: 10vh;
+    padding-top: 120vw;
     background-color: #DFDFDF;
 }
 .map-information{
@@ -1916,6 +1910,7 @@
     z-index: 1;
   }
 }
+/* END OF MEDIA QUERIES */
 
 
    
