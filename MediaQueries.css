@@ -587,8 +587,9 @@
   }
 }
 /* Media Querry for 781px */
-@media screen and (max-width: 781px) {
+@container screen and (max-width: 781px) {
   .hero {
+    border: 5px #000 solid;
     width: 100%;
     grid-template-columns: 1fr;
   }
