@@ -32,8 +32,7 @@
 .mapCase {
   width: 100%;
   position: relative;
-  height: 50rem;
-  background-color: #dfdfdf;
+  height: 100%;
 }
 
 .map-information {

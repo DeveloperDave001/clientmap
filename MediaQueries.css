@@ -7,12 +7,16 @@
   .map{
     order:1;
     border: #3a3a3a solid 3px;
-    height: 110vh;
-    background-color: #DFDFDF;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 .map-information{
-    order:2;   
-    
+    order:2;    
+}
+
+#mapCase{
+  height: 100vh;
+  position: relative;
 }
 
 #weert {
@@ -643,8 +647,9 @@
   .map{
     order:1;
     border: #3a3a3a solid 3px;
-    height: 110vh;
+    height: 50vh;
     background-color: #DFDFDF;
+    padding-top: 50vw;
 }
 .map-information{
     order:2;   
@@ -855,7 +860,8 @@
   .map{
     order:1;
     border: #3a3a3a solid 3px;
-    height: 110vh;
+    height: 45vh;
+    padding-top: 60vw;
     background-color: #DFDFDF;
 }
 .map-information{
@@ -1067,7 +1073,8 @@
   .map{
     order:1;
     border: #3a3a3a solid 3px;
-    height: 110vh;
+    height: 20vh;
+    padding-top: 85vw;
     background-color: #DFDFDF;
 }
 .map-information{
@@ -1279,7 +1286,8 @@
   .map{
     order:1;
     border: #3a3a3a solid 3px;
-    height: 110vh;
+    height: 20vh;
+    padding-top: 100vw;
     background-color: #DFDFDF;
 }
 .map-information{
@@ -1491,7 +1499,8 @@
   .map{
     order:1;
     border: #3a3a3a solid 3px;
-    height: 110vh;
+    height: 20vh;
+    padding-top: 100vw;
     background-color: #DFDFDF;
 }
 .map-information{
@@ -1703,7 +1712,8 @@
   .map{
     order:1;
     border: #3a3a3a solid 3px;
-    height: 110vh;
+    height: 20vh;
+    padding-top: 100vw;
     background-color: #DFDFDF;
 }
 .map-information{
