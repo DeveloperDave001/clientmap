@@ -4,6 +4,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: #d00000 solid 3px;
 }
 h6{
   padding: 0;
