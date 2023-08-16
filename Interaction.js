@@ -2,8 +2,8 @@
 const secondMapInformationData = {
   Weert: `
 <div class="Weert-info" id="Weert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Weert </h6>
 <p><b>P*Q systematiek</b></p>
@@ -14,16 +14,16 @@ Regio/gemeente</h5>
 `,
   Nederweert: `
 <div class="Nederweert-info" id="Nederweert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Nederweert </h6>
 <p><b>P*Q systematiek</b></p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Leudal</h6>
 <p><b>P*Q systematiek.</b></p>
@@ -32,8 +32,8 @@ Regio/gemeente</h5>
 `,
   Roermond: `
 <div class="Roermond-info" id="Roermond-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roermond</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>p>
@@ -41,8 +41,8 @@ Regio/gemeente</h5>
 `,
   Maasgouw: `
 <div class="Maasgouw-info" id="Maasgouw-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maasgouw</h6>
 <p><b>P*Q systematiek.</b></p>
@@ -51,8 +51,8 @@ Regio/gemeente</h5>
 `,
   Roerdalen: `
 <div class="Roerdalen-info" id="Roerdalen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roerdalen</h6>
 <p><b>P*Q systematiek.</b></p>
@@ -61,8 +61,8 @@ Regio/gemeente</h5>
 `,
   "Echt-Susteren": `
 <div class="Echt-Susteren-info" id="Echt-Susteren-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Echt-Susteren</h6>
 <p><b>P*Q systematiek.</b></p>
@@ -71,8 +71,8 @@ Regio/gemeente</h5>
 `,
   "Sittard-Geleen": `
 <div class="Sittard-Geleen-info" id="Sittard-Geleen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Sittard-Geleen</h6>
 <p><b>P*Q systematiek.</b></p>
@@ -81,8 +81,8 @@ Regio/gemeente</h5>
 `,
   Stein: `
 <div class="Stein-info" id="Stein-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 <h6> Stein</h6>
 <p><b>P*Q systematiek.</b></p>
 
@@ -90,8 +90,8 @@ Regio/gemeente</h5>
 `,
   Beek: `
 <div class="Beek-info" id="Beek-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beek</h6>
 <p>P*Q - systematiek</p>
@@ -100,8 +100,8 @@ Regio/gemeente</h5>
 `,
   Beekdaelen: `
 <div class="Beekdaelen-info" id="Beekdaelen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beekdaelen</h6>
 <p><b>P*Q systematiek.</b></p>
@@ -110,8 +110,8 @@ Regio/gemeente</h5>
 `,
   Brunssum: `
 <div class="Brunssum-info" id="Brunssum-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Brunssum</h6>
 <p><b>Samenwerkingsverband ‘Samen Kracht Brunssum’. 
@@ -140,8 +140,8 @@ gemeenten geselecteerd:  </b></p>
 `,
   Heerlen: `
 <div class="Heerlen-info" id="Heerlen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Heerlen</h6>
 <p><b>Coöperatie ‘Heerlen STAND-BY’. Betrokken organisaties: 
@@ -168,8 +168,8 @@ Regio/gemeente</h5>
 `,
   Landgraaf: `
 <div class="Landgraaf-info" id="Landgraaf-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Landgraaf</h6>
 <p><b>Samenwerkingsverband ‘Met Elkaar Landgraaf’ (MEL). Betrokken organisaties: 
@@ -194,8 +194,8 @@ Regio/gemeente</h5>
 `,
   Kerkrade: `
 <div class="Kerkrade-info" id="Kerkrade-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Kerkrade</h6>
 <p><b>P*Q systematiek</b></p>
@@ -204,8 +204,8 @@ Regio/gemeente</h5>
 `,
   Voerendaal: `
 <div class="Voerendaal-info" id="Voerendaal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Voerendaal</h6>
 <p><b>P*Q systematiek</b></p>
@@ -213,7 +213,7 @@ Regio/gemeente</h5>
 `,
   Simpelveld: `
 <div class="Simpelveld-info" id="Simpelveld-info">
-<p class="regio" style="margin-bottom:10px;">Regio/Simpelveld</p>
+<p class="regio" ">Regio/Simpelveld</p>
 
 <h6> Simpelveld</h6>
 <p><b>P*Q systematiek</b></p>
@@ -222,8 +222,8 @@ Regio/gemeente</h5>
 `,
   Valkenburg: `
 <div class="Valkenburg-info" id="Valkenburg-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Valkenburg</h6>
   <p style="width:300px; margin-top:50px; 
@@ -244,8 +244,8 @@ lumpsum per organisatie</b></p>    </div>
 `,
   Meerssen: `
 <div class="Meerssen-info" id="Meerssen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Meerssen</h6>
   <p style="width:300px; margin-top:50px; 
@@ -266,8 +266,8 @@ lumpsum per organisatie</b></p>    </div>
 `,
   Gulpen: `
 <div class="Gulpen-info" id="Gulpen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Gulpen</h6>
 <p><b>Arrangementen - systematiek</b></p>
@@ -276,8 +276,8 @@ Regio/gemeente</h5>
 `,
   Vaals: `
 <div class="Vaals-info" id="Vaals-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Vaals</h6>
 <p><b>Arrangementen - systematiek</b></p>
@@ -286,8 +286,8 @@ Regio/gemeente</h5>
 `,
   Eijsden: `
 <div class="Eijsden-info" id="Eijsden-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Eijsden-Margraten</h6>
 <p><b>Arrangementen - systematiek</b></p>
@@ -297,8 +297,8 @@ Regio/gemeente</h5>
   Maastricht: `
 <div class="Maastricht-info" id="Maastricht-info">
 
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maastricht </h6>
   <p style="width:300px; margin-top:50px; 
@@ -335,8 +335,8 @@ function showSecondElementInfoOnClick(e, i, color) {
 const mapInformationData = {
   Weert: `
 <div class="Weert-info" id="Weert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Weert</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -347,16 +347,16 @@ Regio/gemeente</h5>
 `,
   Nederweert: `
 <div class="Nederweert-info" id="Nederweert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Nederweert</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Leudal</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -365,8 +365,8 @@ Regio/gemeente</h5>
 `,
   Roermond: `
 <div class="Roermond-info" id="Roermond-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roermond</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -374,8 +374,8 @@ Regio/gemeente</h5>
 `,
   Maasgouw: `
 <div class="Maasgouw-info" id="Maasgouw-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maasgouw</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -384,8 +384,8 @@ Regio/gemeente</h5>
 `,
   Roerdalen: `
 <div class="Roerdalen-info" id="Roerdalen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roerdalen</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -394,8 +394,8 @@ Regio/gemeente</h5>
 `,
   "Echt-Susteren": `
 <div class="Echt-Susteren-info" id="Echt-Susteren-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Echt-Susteren</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -404,8 +404,8 @@ Regio/gemeente</h5>
 `,
   "Sittard-Geleen": `
 <div class="Sittard-Geleen-info" id="Sittard-Geleen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Sittard-Geleen</h6>
 <p><b>P*Q - systematiek</b></p>
@@ -414,8 +414,8 @@ Regio/gemeente</h5>
 `,
   Stein: `
 <div class="Stein-info" id="Stein-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Stein</h6>
 <p><b>P*Q - systematiek</b></p>
@@ -424,8 +424,8 @@ Regio/gemeente</h5>
 `,
   Beek: `
 <div class="Beek-info" id="Beek-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beek</h6>
 <p><b>P*Q - systematiek</b></p>
@@ -433,8 +433,8 @@ Regio/gemeente</h5>
 `,
   Beekdaelen: `
 <div class="Beekdaelen-info" id="Beekdaelen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beekdaelen</h6>
 <p><b>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </b></p>
@@ -466,8 +466,8 @@ Regio/gemeente</h5>
 `,
   Brunssum: `
 <div class="Brunssum-info" id="Brunssum-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Brunssum</h6>
 <p><b>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </b></p>
@@ -502,8 +502,8 @@ Regio/gemeente</h5>
 `,
   Heerlen: `
 <div class="Heerlen-info" id="Heerlen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Heerlen</h6>
 <p><b>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </b></p>
@@ -533,8 +533,8 @@ Regio/gemeente</h5>
 `,
   Landgraaf: `
 <div class="Landgraaf-info" id="Landgraaf-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Landgraaf</h6>
 <p><b>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </b></p>
@@ -566,8 +566,8 @@ Regio/gemeente</h5>
 `,
   Kerkrade: `
 <div class="Kerkrade-info" id="Kerkrade-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Kerkrade</h6>
 <p><b>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </b></p>
@@ -599,8 +599,8 @@ Regio/gemeente</h5>
 `,
   Voerendaal: `
 <div class="Voerendaal-info" id="Voerendaal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Voerendaal</h6>
 <p><b>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </b></p>
@@ -630,8 +630,8 @@ Regio/gemeente</h5>
 `,
   Simpelveld: `
 <div class="Simpelveld-info" id="Simpelveld-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Simpelveld</h6>
 <p><b>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </b></p>
@@ -663,16 +663,16 @@ Regio/gemeente</h5>
 `,
   Valkenburg: `
 <div class="Valkenburg-info" id="Valkenburg-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Valkenburg</h6>
 <p><b> Arrangementen systematiek</p></b></div>
 `,
   Meerssen: `
 <div class="Meerssen-info" id="Meerssen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Meerssen</h6>
 <p><b> Arrangementen systematiek</b></p>
@@ -681,8 +681,8 @@ Regio/gemeente</h5>
 `,
   Gulpen: `
 <div class="Gulpen-info" id="Gulpen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Gulpen-Wittem</h6>
 <p> <b>Arrangementen systematiek</b></p>
@@ -691,8 +691,8 @@ Regio/gemeente</h5>
 `,
   Vaals: `
 <div class="Vaals-info" id="Vaals-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Vaals</h6>
 <p><b> Arrangementen systematiek</b></p>
@@ -701,8 +701,8 @@ Regio/gemeente</h5>
 `,
   Eijsden: `
 <div class="Eijsden-info" id="Eijsden-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Eijsden-Margraten</h6>
 <p> <b>Arrangementen systematiek</b></p>
@@ -712,8 +712,8 @@ Regio/gemeente</h5>
   Maastricht: `
 <div class="Maastricht-info" id="Maastricht-info">
 
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maastricht</h6>
   <p><b> Arrangementen systematiek</b></p>
@@ -737,8 +737,8 @@ function showElementInfoOnClick(e, i, color) {
 const thirdMapInformationData = {
   Weert: `
 <div class="Weert-info" id="Weert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6>Weert</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -749,16 +749,16 @@ Regio/gemeente</h5>
 `,
   Nederweert: `
 <div class="Nederweert-info" id="Nederweert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Nederweert</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6>Leudal</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -767,8 +767,8 @@ Regio/gemeente</h5>
 `,
   Roermond: `
 <div class="Roermond-info" id="Roermond-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roermond</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -776,8 +776,8 @@ Regio/gemeente</h5>
 `,
   Maasgouw: `
 <div class="Maasgouw-info" id="Maasgouw-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maasgouw</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -786,8 +786,8 @@ Regio/gemeente</h5>
 `,
   Roerdalen: `
 <div class="Roerdalen-info" id="Roerdalen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roerdalen</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -796,8 +796,8 @@ Regio/gemeente</h5>
 `,
   "Echt-Susteren": `
 <div class="Echt-Susteren-info" id="Echt-Susteren-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Echt-Susteren</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -806,8 +806,8 @@ Regio/gemeente</h5>
 `,
   "Sittard-Geleen": `
 <div class="Sittard-Geleen-info" id="Sittard-Geleen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Sittard-Geleen</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -827,8 +827,8 @@ Regio/gemeente</h5>
 `,
   Stein: `
 <div class="Stein-info" id="Stein-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Stein</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -848,8 +848,8 @@ Regio/gemeente</h5>
 `,
   Beek: `
 <div class="Beek-info" id="Beek-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beek</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -869,8 +869,8 @@ Regio/gemeente</h5>
 `,
   Beekdaelen: `
 <div class="Beekdaelen-info" id="Beekdaelen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beekdaelen</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -889,8 +889,8 @@ Regio/gemeente</h5>
 `,
   Brunssum: `
 <div class="Brunssum-info" id="Brunssum-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Brunssum</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -911,8 +911,8 @@ Regio/gemeente</h5>
 `,
   Heerlen: `
 <div class="Heerlen-info" id="Heerlen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Heerlen</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -933,8 +933,8 @@ Regio/gemeente</h5>
 `,
   Landgraaf: `
 <div class="Landgraaf-info" id="Landgraaf-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Landgraaf</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -954,8 +954,8 @@ Regio/gemeente</h5>
 `,
   Kerkrade: `
 <div class="Kerkrade-info" id="Kerkrade-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Kerkrade</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -975,8 +975,8 @@ Regio/gemeente</h5>
 `,
   Voerendaal: `
 <div class="Voerendaal-info" id="Voerendaal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Voerendaal</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -995,8 +995,8 @@ Regio/gemeente</h5>
 `,
   Simpelveld: `
 <div class="Simpelveld-info" id="Simpelveld-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Simpelveld</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -1016,8 +1016,8 @@ Regio/gemeente</h5>
 `,
   Valkenburg: `
 <div class="Valkenburg-info" id="Valkenburg-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Valkenburg</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -1038,8 +1038,8 @@ Regio/gemeente</h5>
 `,
   Meerssen: `
 <div class="Meerssen-info" id="Meerssen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Meerssen</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -1060,8 +1060,8 @@ Regio/gemeente</h5>
 `,
   Gulpen: `
 <div class="Gulpen-info" id="Gulpen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Gulpen</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -1081,8 +1081,8 @@ Regio/gemeente</h5>
 `,
   Vaals: `
 <div class="Vaals-info" id="Vaals-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Vaals</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -1103,8 +1103,8 @@ Regio/gemeente</h5>
 `,
   Eijsden: `
 <div class="Eijsden-info" id="Eijsden-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Eijsden-Margraten</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -1125,8 +1125,8 @@ Regio/gemeente</h5>
   Maastricht: `
 <div class="Maastricht-info" id="Maastricht-info">
 
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maastricht</h6>
 <p><b>samenwerkingsverband:</b></p>
@@ -1170,8 +1170,8 @@ function showThirdElementInfoOnClick(e, i, color) {
 const forthMapInformationData = {
   Weert: `
 <div class="Weert-info" id="Weert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Weert</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -1182,16 +1182,16 @@ Regio/gemeente</h5>
 `,
   Nederweert: `
 <div class="Nederweert-info" id="Nederweert-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Nederweert</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Leudal</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -1200,8 +1200,8 @@ Regio/gemeente</h5>
 `,
   Roermond: `
 <div class="Roermond-info" id="Roermond-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roermond</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -1209,8 +1209,8 @@ Regio/gemeente</h5>
 `,
   Maasgouw: `
 <div class="Maasgouw-info" id="Maasgouw-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maasgouw</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -1219,8 +1219,8 @@ Regio/gemeente</h5>
 `,
   Roerdalen: `
 <div class="Roerdalen-info" id="Roerdalen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Roerdalen</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -1229,8 +1229,8 @@ Regio/gemeente</h5>
 `,
   "Echt-Susteren": `
 <div class="Echt-Susteren-info" id="Echt-Susteren-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Echt-Susteren</h6>
 <p><b>Deze regio heeft geen informatie.</b></p>
@@ -1239,8 +1239,8 @@ Regio/gemeente</h5>
 `,
   "Sittard-Geleen": `
 <div class="Sittard-Geleen-info" id="Sittard-Geleen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Sittard-Geleen Regional Information</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1267,8 +1267,8 @@ Regio/gemeente</h5>
 `,
   Stein: `
 <div class="Stein-info" id="Stein-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Stein</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1295,8 +1295,8 @@ Regio/gemeente</h5>
 `,
   Beek: `
 <div class="Beek-info" id="Beek-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beek</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1323,8 +1323,8 @@ Regio/gemeente</h5>
 `,
   Beekdaelen: `
 <div class="Beekdaelen-info" id="Beekdaelen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Beekdaelen</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1350,8 +1350,8 @@ Regio/gemeente</h5>
 `,
   Brunssum: `
 <div class="Brunssum-info" id="Brunssum-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Brunssum</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1378,8 +1378,8 @@ Regio/gemeente</h5>
 `,
   Heerlen: `
 <div class="Heerlen-info" id="Heerlen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Heerlen</h6>
 <p style="margin-top:5px; class="preffered"><b>Coöperatie JenS. Betrokken partijen: </b></p>
@@ -1401,8 +1401,8 @@ Regio/gemeente</h5>
 `,
   Landgraaf: `
 <div class="Landgraaf-info" id="Landgraaf-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Landgraaf</h6>
 <p style="margin-top:5px; class="preffered"><b>Coöperatie JenS. Betrokken partijen: </b></p>
@@ -1425,8 +1425,8 @@ Regio/gemeente</h5>
 `,
   Kerkrade: `
 <div class="Kerkrade-info" id="Kerkrade-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Kerkrade</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1454,8 +1454,8 @@ Regio/gemeente</h5>
 `,
   Voerendaal: `
 <div class="Voerendaal-info" id="Voerendaal-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Voerendaal</h6>
 <p style="margin-top:5px; class="preffered"><b>Coöperatie JenS. Betrokken partijen: </b></p>
@@ -1479,8 +1479,8 @@ Regio/gemeente</h5>
 `,
   Simpelveld: `
 <div class="Simpelveld-info" id="Simpelveld-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Simpelveld</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1507,8 +1507,8 @@ Regio/gemeente</h5>
 `,
   Valkenburg: `
 <div class="Valkenburg-info" id="Valkenburg-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Valkenburg</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1536,8 +1536,8 @@ Regio/gemeente</h5>
 `,
   Meerssen: `
 <div class="Meerssen-info" id="Meerssen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Meerssen</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1565,8 +1565,8 @@ Regio/gemeente</h5>
 `,
   Gulpen: `
 <div class="Gulpen-info" id="Gulpen-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Gulpen</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1593,8 +1593,8 @@ Regio/gemeente</h5>
 `,
   Vaals: `
 <div class="Vaals-info" id="Vaals-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Vaals</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1622,8 +1622,8 @@ Regio/gemeente</h5>
 `,
   Eijsden: `
 <div class="Eijsden-info" id="Eijsden-info">
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Eijsden-Margraten</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
@@ -1651,8 +1651,8 @@ Regio/gemeente</h5>
   Maastricht: `
 <div class="Maastricht-info" id="Maastricht-info">
 
-<h5 class="regio" style="margin-bottom:10px;">
-Regio/gemeente</h5>
+<h6 class="regio" ">
+Regio/gemeente</h6>
 
 <h6> Maastrcht</h6>
 <p><b>Samenwerkingsverband: Combinatie Mondriaan.</b></p>
