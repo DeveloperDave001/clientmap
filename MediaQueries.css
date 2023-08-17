@@ -50,7 +50,7 @@
 @media screen and (max-width: 781px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
   } 
   #map{
     order:1;
@@ -387,13 +387,13 @@ transform: rotate(270deg);
 @media screen and (max-width: 767px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
   } 
   #map{
     order:1;
     height: 140vw;
     padding-top: 5vw;
-    background-color: ##fff;
+    background-color: #fff;
 }
 .map-information{
     order:2;   
@@ -601,7 +601,7 @@ transform: rotate(270deg);
 @media screen and (max-width: 600px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
   } 
   #map{
     order:1;
@@ -813,7 +813,7 @@ transform: rotate(270deg);
 @media screen and (max-width: 544px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
 
   } 
   #map{
@@ -1027,7 +1027,7 @@ transform: rotate(270deg);
 @media screen and (max-width: 479px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
 
   } 
     #map{
@@ -1240,7 +1240,7 @@ transform: rotate(270deg);
 @media screen and (max-width: 420px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
   } 
   #map{
     order:1;
@@ -1452,7 +1452,7 @@ transform: rotate(270deg);
 @media screen and (max-width: 400px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
   } 
   #map{
     order:1;
@@ -1664,7 +1664,7 @@ transform: rotate(270deg);
 @media screen and (max-width: 375px){
   .hero {
   grid-template-columns: 1fr;
-    background-color: ##fff;
+    background-color: #fff;
   } 
   #map{
     order:1;

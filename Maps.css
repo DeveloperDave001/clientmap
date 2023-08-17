@@ -54,6 +54,27 @@ p{
   justify-content: center;
   padding: .5vw;
 }
+
+
+#region{
+  font-size: 3vw;
+}
+
+#region-name{
+  font-size: 3vw;
+  animation: pop .5s linear infinite;
+  margin-top: .5vw;
+}
+@keyframes pop{
+  20%{
+    font-size: 3.05vw;
+  }
+  80%{
+    font-size: 3.07vw;
+  }
+}
+
+
 a {
   color: #0016be;
 }
@@ -91,6 +112,7 @@ a {
   animation: appear 500ms linear;
   opacity: 1;
 }
+
 
 
 @keyframes appear {
