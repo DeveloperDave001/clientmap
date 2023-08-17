@@ -153,32 +153,21 @@ ul li::before {
 .Stein-r,
 .Sittard-Geleen-r,
 .Nederweert-r,
-.Maasgouw-r {
-  position: absolute;
-  z-index: 10;
-  background-color: transparent;
-  left: 1vw;
-  top: 20vw;
-  font-weight: bold;
-  font-size: 0vw;
-  overflow-x: visible;
-  transition: all 0.3s ease;
-  opacity: 0;
-  
-  border: #000 solid 3px;
-}
+.Maasgouw-r, 
 .Echt-Susteren-r {
   position: absolute;
   z-index: 10;
   background-color: transparent;
-  left: 1vw;
+  right: 5vw;
   top: 25vw;
   font-weight: bold;
-  font-size: 0vw;
+  font-size: 4dvh;
   overflow-x: visible;
   transition: all 0.3s ease;
   opacity: 0;
+  pointer-events: none;
 }
+
 
 /* Regional Information Span Looping */
 .weert-r span,
@@ -207,11 +196,11 @@ ul li::before {
   position: absolute;
   z-index: 10;
   background-color: transparent;
-  font-size: 0.75vw;
-  width: 10vw;
-  margin-top: -0.5vw;
+  font-size: 1vw;
+  margin-top: 0vw;
   font-weight: 500;
   font-style: italic;
+  border: #000 solid 3px;
 }
 
 /* MAPS ArrangementS  */
@@ -239,8 +228,8 @@ ul li::before {
 
 
 .weert:hover + .weert-r {
+  transform: scale(1.1);
   opacity: 1;
-  font-size: 1.5vw;
 }
 .Nederweert {
   width: 10.7vw;
@@ -257,7 +246,7 @@ ul li::before {
 
 .Nederweert:hover + .Nederweert-r {
   opacity: 1;
-  font-size: 1.5vw;
+  font-size: 3vw;
 }
 .Leudal {
   width: 12.4vw;
