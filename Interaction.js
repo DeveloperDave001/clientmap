@@ -6,7 +6,7 @@ const secondMapInformationData = {
 Regio/gemeente</h6>
 
 <h6 id = "region-name"> Weert </h6>
-<p>P*Q systematiek</p>
+<p id = "region-info">P*Q systematiek</p>
 
 
 
@@ -18,7 +18,7 @@ Regio/gemeente</h6>
 Regio/gemeente</h6>
 
 <h6 id = "region-name"> Nederweert </h6>
-<p>P*Q systematiek</p>
+<p id = "region-info">P*Q systematiek</p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
@@ -120,7 +120,7 @@ Betrokken organisaties: </p>
 <p style="margin-top:10px; class="preffered">5 Preferred suppliers zijn door 
 gemeenten geselecteerd:  </p>
 
-<ul style="margin-top:30px; class="regio-list">
+<ul style="margin-top:30px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Radar</li>
 <li> SGL </li>
@@ -144,10 +144,10 @@ gemeenten geselecteerd:  </p>
 Regio/gemeente</h6>
 
 <h6 id = "region-name"> Heerlen</h6>
-<p>Coöperatie ‘Heerlen STAND-BY’. Betrokken organisaties: 
+<p id = "region-info">Coöperatie ‘Heerlen STAND-BY’. Betrokken organisaties: 
 </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Alcander</li>
 <li>Cicero Zorggroep</li>
 <li> LEVANTOgroep</li>
@@ -159,11 +159,11 @@ Regio/gemeente</h6>
 <li>SGL en Zorggroep Triade</li>
 </ul>
 
-<p style="margin-top:30px; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
+<p style="margin-top: .5vw; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
 
-<p style="margin-top:30px; ">Voor meer informatie zie:</p>
+<p style="margin-top: .5vw; ">Voor meer informatie zie:</p>
 
-<p style="margin-top:30px; "><a href="https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by">https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by</a></p>
+<p style="margin-top: .5vw; "><a href="https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by">https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by</a></p>
 </div>
 `,
   Landgraaf: `
@@ -175,7 +175,7 @@ Regio/gemeente</h6>
 <p>Samenwerkingsverband ‘Met Elkaar Landgraaf’ (MEL). Betrokken organisaties: 
 </p>
 
-<ul style="margin-top:30px; class="regio-list">
+<ul style="margin-top:30px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>MeanderGroep </li>
 <li> Mondriaan</li>
@@ -231,7 +231,7 @@ Regio/gemeente</h6>
    zijn door 
   gemeenten geselecteerd: </p>
   
-<ul style="margin-top:50px; class="regio-list">
+<ul style="margin-top:50px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Vincent van Gogh</li>
 <li> SGL </li>
@@ -253,7 +253,7 @@ Regio/gemeente</h6>
    zijn door 
   gemeenten geselecteerd: </p>
   
-<ul style="margin-top:50px; class="regio-list">
+<ul style="margin-top:50px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Vincent van Gogh</li>
 <li> SGL </li>
@@ -306,7 +306,7 @@ Regio/gemeente</h6>
    zijn door 
   gemeenten geselecteerd: </p>
   
-<ul style="margin-top:50px; class="regio-list">
+<ul style="margin-top:50px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Vincent van Gogh</li>
 <li> SGL </li>
@@ -441,7 +441,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -474,7 +474,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -510,7 +510,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -541,7 +541,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -574,7 +574,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -607,7 +607,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -638,7 +638,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -814,7 +814,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -835,7 +835,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -856,7 +856,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -877,7 +877,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -897,7 +897,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -919,7 +919,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -941,7 +941,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -962,7 +962,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -983,7 +983,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1003,7 +1003,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1024,7 +1024,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1046,7 +1046,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1068,7 +1068,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1089,7 +1089,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1111,7 +1111,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1133,7 +1133,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1247,7 +1247,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1275,7 +1275,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1303,7 +1303,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1331,7 +1331,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1358,7 +1358,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1384,7 +1384,7 @@ Regio/gemeente</h6>
 <h6> Heerlen</h6>
 <p style="margin-top:5px; class="preffered">Coöperatie JenS. Betrokken partijen: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Alcander</li>
 <li>Koraal</li>
 <li> Lionarons GGZ</li>
@@ -1407,7 +1407,7 @@ Regio/gemeente</h6>
 <h6> Landgraaf</h6>
 <p style="margin-top:5px; class="preffered">Coöperatie JenS. Betrokken partijen: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Alcander</li>
 <li>Koraal</li>
 <li> Lionarons GGZ</li>
@@ -1433,7 +1433,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1460,7 +1460,7 @@ Regio/gemeente</h6>
 <h6> Voerendaal</h6>
 <p style="margin-top:5px; class="preffered">Coöperatie JenS. Betrokken partijen: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Alcander</li>
 <li>Koraal</li>
 <li> Lionarons GGZ</li>
@@ -1487,7 +1487,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1515,7 +1515,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1544,7 +1544,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1573,7 +1573,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1601,7 +1601,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1630,7 +1630,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1659,7 +1659,7 @@ Regio/gemeente</h6>
 
 <p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px; class="regio-list">
+<ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>

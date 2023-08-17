@@ -52,7 +52,8 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: .5vw;
+  padding: 2vw 2vw;
+  border: #000 solid;
 }
 
 
@@ -62,19 +63,25 @@ p{
 
 #region-name{
   font-size: 3vw;
-  animation: pop .5s linear infinite;
+  animation: pop 20s linear infinite;
   margin-top: .5vw;
 }
 @keyframes pop{
-  20%{
-    font-size: 3.05vw;
-  }
-  80%{
-    font-size: 3.07vw;
+
+  50%{
+    color: #262626;
   }
 }
 
+#region-info{
+  border: #000 solid;
+  font-size: 1.3vw;
+}
 
+#region-list{
+  border: #000 solid;
+  font-size: 1.3vw;
+}
 a {
   color: #0016be;
 }
