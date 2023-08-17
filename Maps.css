@@ -4,7 +4,6 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: #d00000 solid 3px;
 }
 h6{
   padding: 0;
@@ -15,9 +14,9 @@ p{
   margin: 0;
 }
 
-#map-section2{
+/* #map-section2{
   border: #000000 solid 7px;
-}
+} */
 #break {
   margin-top: 15px;
   padding: 30px;
