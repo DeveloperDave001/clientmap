@@ -1,4 +1,3 @@
-
 const secondMapInformationData = {
   Weert: `
 <div class="Weert-info" id="Weert-info">
@@ -76,7 +75,6 @@ Regio/gemeente</h6>
 
 <h6 id = "region-name""> Sittard-Geleen</h6>
 <p id = "region-info">P*Q systematiek.</p>
-
 </div>
 `,
   Stein: `
@@ -128,7 +126,7 @@ gemeenten geselecteerd:  </p>
 <li>Zorggroep</li>
 <li>MeanderGroep</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:30px; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
 <p style="margin-top:30px; ">Voor meer informatie zie:</p>
 <p style="margin-top:30px; "><a href="https://www.levantogroep.nl/samenwerkingen/samenkracht-brunssum">https://www.levantogroep.nl/samenwerkingen/samenkracht-brunssum</a></p>
@@ -147,7 +145,7 @@ Regio/gemeente</h6>
 <p id = "region-info">Coöperatie ‘Heerlen STAND-BY’. Betrokken organisaties: 
 </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Alcander</li>
 <li>Cicero Zorggroep</li>
 <li> LEVANTOgroep</li>
@@ -159,7 +157,7 @@ Regio/gemeente</h6>
 <li>SGL en Zorggroep Triade</li>
 </ul>
 
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top: .5vw; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
 <p style="margin-top: .5vw; ">Voor meer informatie zie:</p>
 <p style="margin-top: .5vw; "><a href="https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by">https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by</a></p>
@@ -185,7 +183,7 @@ Regio/gemeente</h6>
 <li>Relim-Schoon GMS en SGL.</li>
 </ul>
 
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:30px; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
 <p style="margin-top:30px; ">Voor meer informatie zie:</p>
 <p style="margin-top:30px; "><a href="https://www.levantogroep.nl/samenwerkingen/met-elkaar-landgraaf">https://www.levantogroep.nl/samenwerkingen/met-elkaar-landgraaf</a></p>
@@ -238,7 +236,7 @@ Regio/gemeente</h6>
 <li> Radar</li>
 <li> Summa (samenwerkingsverband)</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p>Financiering middels 
 lumpsum per organisatie</p>  
 </div>  
@@ -262,7 +260,7 @@ Regio/gemeente</h6>
 <li> Radar</li>
 <li> Summa (samenwerkingsverband)</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p>Financiering middels 
 lumpsum per organisatie</p>    
 </div>
@@ -310,14 +308,14 @@ Regio/gemeente</h6>
    zijn door 
   gemeenten geselecteerd: </p>
   
-<ul style="margin-top:50px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Vincent van Gogh</li>
 <li> SGL </li>
 <li> Radar</li>
 <li> Summa (samenwerkingsverband)</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p>Financiering middels 
 lumpsum per organisatie</p>
 </div>
@@ -327,9 +325,7 @@ lumpsum per organisatie</p>
 `,
 };
 
-const secondMapInformation = document.querySelector(
-  "#second-map-information"
-);
+const secondMapInformation = document.querySelector("#second-map-information");
 
 function showSecondElementInfoOnClick(e, i, color) {
   secondMapInformation.innerHTML = secondMapInformationData[e];
@@ -447,7 +443,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -481,7 +477,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -497,7 +493,7 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
@@ -517,7 +513,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -533,7 +529,7 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>   
@@ -551,7 +547,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -567,7 +563,7 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
@@ -585,7 +581,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -601,7 +597,7 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    
@@ -621,7 +617,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -637,7 +633,7 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    
@@ -655,7 +651,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Stichting Zonnewende</li>
 <li>stichting Anna</li>
 <li> Stichting Aristacura</li>
@@ -671,7 +667,7 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-<div id="remaining-text">
+<div id="region-info">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
@@ -745,11 +741,9 @@ const mapInformation = document.querySelector("#first-map-information");
 
 function showElementInfoOnClick(e, i, color) {
   mapInformation.innerHTML = mapInformationData[e];
-  
+
   mapInformation.style.backgroundColor = color;
 }
-
-
 
 //Map3 Js Section
 const thirdMapInformationData = {
@@ -832,7 +826,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -854,7 +848,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -876,7 +870,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -898,7 +892,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -920,7 +914,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -943,7 +937,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -966,7 +960,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -988,7 +982,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1010,7 +1004,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1032,7 +1026,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1054,7 +1048,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1077,7 +1071,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1100,7 +1094,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1122,7 +1116,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1145,7 +1139,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1168,7 +1162,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>LEVANTOgroep</li>
 <li>Xonar</li>
 <li> Koraalgroep</li>
@@ -1183,25 +1177,16 @@ Regio/gemeente</h6>
 `,
 };
 
-const thirdMapInformation = document.querySelector(
-  "#Third-map-information"
-);
+const thirdMapInformation = document.querySelector("#Third-map-information");
 
 function showThirdElementInfoOnClick(e, i, color) {
   thirdMapInformation.innerHTML = thirdMapInformationData[e];
 
   thirdMapInformation.style.backgroundColor = color;
-  console.log(color)
+  console.log(color);
 }
 
 //Map4 Section
-
-
-
-
-
-
-
 
 const forthMapInformationData = {
   Weert: `
@@ -1281,7 +1266,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1309,7 +1294,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1338,7 +1323,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1367,7 +1352,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1395,7 +1380,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1422,7 +1407,7 @@ Regio/gemeente</h6>
 <h6 id = "region-name"> Heerlen</h6>
 <p id = "region-info">Coöperatie JenS. Betrokken partijen: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Alcander</li>
 <li>Koraal</li>
 <li> Lionarons GGZ</li>
@@ -1446,7 +1431,7 @@ Regio/gemeente</h6>
 <h6 id = "region-name"> Landgraaf</h6>
 <p id = "region-info">Coöperatie JenS. Betrokken partijen: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Alcander</li>
 <li>Koraal</li>
 <li> Lionarons GGZ</li>
@@ -1473,7 +1458,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1501,7 +1486,7 @@ Regio/gemeente</h6>
 <h6 id = "region-name"> Voerendaal</h6>
 <p id = "region-info">Coöperatie JenS. Betrokken partijen: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Alcander</li>
 <li>Koraal</li>
 <li> Lionarons GGZ</li>
@@ -1529,7 +1514,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1558,7 +1543,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1588,7 +1573,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1618,7 +1603,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1647,7 +1632,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1677,7 +1662,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1707,7 +1692,7 @@ Regio/gemeente</h6>
 
 <p id = "region-info">Betrokken organisaties: </p>
 
-<ul style="margin-top:5px;" id="region-list">
+<ul id="region-list">
 <li>Amacura</li>
 <li>Koraalgroep</li>
 <li> Radar</li>
@@ -1729,15 +1714,10 @@ Regio/gemeente</h6>
 `,
 };
 
-const forthMapInformation = document.querySelector(
-  "#forth-map-information"
-);
+const forthMapInformation = document.querySelector("#forth-map-information");
 
 function showForthElementInfoOnClick(e, i, color) {
   forthMapInformation.innerHTML = forthMapInformationData[e];
-  
+
   forthMapInformation.style.backgroundColor = color;
-  
 }
-
-

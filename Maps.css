@@ -5,14 +5,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-h6{
-  padding: 0;
-  margin: 0;
-}
-p{
-  padding: .3vw;
-  margin: 0;
-}
+
+
 
 /* #map-section2{
   border: #000000 solid 7px;
@@ -54,6 +48,10 @@ p{
   justify-content: center;
   padding: 2vw 2vw;
 }
+.map-information h1{
+  margin: 0;
+  padding: 0;
+}
 
 
 #region{
@@ -62,25 +60,22 @@ p{
 
 #region-name{
   font-size: 3vw;
-  animation: pop 20s linear infinite;
-  margin-top: .5vw;
 }
 
 
 #region-info{
-  border: #000 solid;
   font-size: 1.6vw;
+  margin: 0;
+  padding: 0;
 }
 
 #region-list{
-/*   border: #000 solid;
- */  font-size: 1.5vw;
+  margin: 0;
+  padding: 0;
+ font-size: 1.5vw;
 }
 
-#remaining-text p{
-  border: #018dc0 solid 2px;
-  font-size: 1.6vw;
-}
+
 a {
   color: #0016be;
 }
@@ -131,8 +126,8 @@ a {
 }
 
 .map-information h6 {
-  margin-bottom: vw;
-  margin-top: vw;
+  margin: 0;
+  margin: 0;
   color: #fff;
   text-align: left;
 font-size: 4vw;

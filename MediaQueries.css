@@ -10,12 +10,52 @@
   #map{
     height: 105vh;
   }
+#region-info{
+  font-size: 2vw;
 }
+#region-info p{
+  font-size: 2vw;
+}
+
+#region-list{
+/*   border: #000 solid;
+ */  font-size: 1.6vw;
+}
+}
+
+
+
 
 @media screen and (max-width: 1500px){
   #map{
     height: 90vh;
   }
+
+  #region{
+    font-size: 3vw;
+  }
+  
+  #region-name{
+    font-size: 3vw;
+    animation: pop 20s linear infinite;
+    margin-top: .5vw;
+  }
+  
+  
+  #region-info{
+    font-size: 2vw;
+  }
+  #region-info p{
+    font-size: 2vw;
+  }
+  
+  #region-list{
+  /*   border: #000 solid;
+   */  font-size: 1.6vw;
+  }
+  
+  
+
 }
 
 @media screen and (max-width: 1300px){
@@ -52,13 +92,42 @@
   grid-template-columns: 1fr;
     background-color: #fff;
   } 
+
+  #region{
+    font-size: 3vw;
+  }
+  
+  #region-name{
+    font-size: 3vw;
+    animation: pop 20s linear infinite;
+    margin-top: .5vw;
+  }
+  
+  
+  #region-info{
+    font-size: 3vw;
+  }
+  #region-info p{
+    font-size: 3vw;
+  }
+  
+  #region-list{
+    margin: 0;
+    padding: 0;
+  /*   border: #000 solid;
+   */  font-size: 3vw;
+  }
+  
+  
   #map{
     order:1;
     height: 120vw;
 
 }
 .map-information{
-    order:2;    
+    order:2; 
+
+ 
 }
 
 #mapCase{
@@ -391,7 +460,7 @@ transform: rotate(270deg);
   } 
   #map{
     order:1;
-    height: 140vw;
+    height: 110vw;
     padding-top: 5vw;
     background-color: #fff;
 }
@@ -596,6 +665,31 @@ transform: rotate(270deg);
   }
 }
 
+@media screen and (max-width: 700px){
+  #map{
+    order:1;
+    height: 100vw;
+    padding-top: 5vw;
+    background-color: #fff;
+}
+}
+
+@media screen and (max-width: 650px){
+  #map{
+    order:1;
+    height: 110vw;
+    padding-top: 5vw;
+    background-color: #fff;
+} 
+}
+@media screen and (max-width: 690px){
+  #map{
+    order:1;
+    height: 110vw;
+    padding-top: 5vw;
+    background-color: #fff;
+} 
+}
 
 /* Media Querry for 600px */
 @media screen and (max-width: 600px){
@@ -809,6 +903,8 @@ transform: rotate(270deg);
   }
 }
 
+
+
 /* Media Querry for 544px */
 @media screen and (max-width: 544px){
   .hero {
@@ -818,7 +914,7 @@ transform: rotate(270deg);
   } 
   #map{
     order:1;
-    height: 105vw;
+    height: 90vw;
     padding-top: 35vw;
 }
 
@@ -1032,7 +1128,7 @@ transform: rotate(270deg);
   } 
     #map{
       order:1;
-      height: 83vw;
+      height: 80vw;
       padding-top: 60vw;
   }
 .map-information{
@@ -1244,7 +1340,7 @@ transform: rotate(270deg);
   } 
   #map{
     order:1;
-    height: 65vw;
+    height: 40vw;
     padding-top: 80vw;
 }
 .map-information{
@@ -1456,7 +1552,7 @@ transform: rotate(270deg);
   } 
   #map{
     order:1;
-    height: 55vw;
+    height: 40vw;
     padding-top: 100vw;
 }
 .map-information{
@@ -1668,8 +1764,7 @@ transform: rotate(270deg);
   } 
   #map{
     order:1;
-    height: 45vw;
-    padding-top: 100vw;
+    height: 55vw;
 }
 .map-information{
     order:2;   
