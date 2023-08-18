@@ -47,6 +47,7 @@
   align-items: center;
   justify-content: center;
   padding: 2vw 2vw;
+
 }
 .map-information h1{
   margin: 0;
@@ -126,11 +127,11 @@ a {
 }
 
 .map-information h6 {
-  margin: 0;
+  padding: 0;
   margin: 0;
   color: #fff;
   text-align: left;
-font-size: 4vw;
+font-size: 2vw;
 }
 .map-information p {
   color: #fff;
@@ -180,14 +181,14 @@ ul li::before {
 .Nederweert-r,
 .Maasgouw-r, 
 .Echt-Susteren-r {
+  font-size: 1vw;
   width: 20vw;
   position: absolute;
   z-index: 10;
   background-color: transparent;
   right: 1vw;
-  top: 22vw;
+  top: 20vw;
   font-weight: bold;
-  font-size: 4dvh;
   transition: all 0.3s ease;
   opacity: 0;
   pointer-events: none;
@@ -264,7 +265,7 @@ top: -.9vw;
 
 .weert:hover + .weert-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 .Nederweert {
   width: 10.7vw;
@@ -281,7 +282,7 @@ font-size: 4vw;
 
 .Nederweert:hover + .Nederweert-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 .Leudal {
   width: 12.4vw;
@@ -296,7 +297,7 @@ font-size: 4vw;
 }
 .Leudal:hover + .Leudal-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Roermond {
@@ -313,7 +314,7 @@ font-size: 4vw;
 }
 .Roermond:hover + .Roermond-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Maasgouw {
@@ -329,7 +330,7 @@ font-size: 4vw;
 }
 .Maasgouw:hover + .Maasgouw-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Roerdalen {
@@ -345,7 +346,7 @@ font-size: 4vw;
 }
 .Roerdalen:hover + .Roerdalen-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Echt-Susteren {
@@ -362,7 +363,7 @@ font-size: 4vw;
 }
 .Echt-Susteren:hover + .Echt-Susteren-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Sittard-Geleen {
@@ -379,7 +380,7 @@ font-size: 4vw;
 }
 .Sittard-Geleen:hover + .Sittard-Geleen-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
  .Stein {
@@ -396,7 +397,7 @@ font-size: 4vw;
 }
 .Stein:hover + .Stein-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Beek {
@@ -414,7 +415,7 @@ font-size: 4vw;
 }
 .Beek:hover + .Beek-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 .Beekdaelen {
   width: 11.4vw;
@@ -430,7 +431,7 @@ font-size: 4vw;
 }
 .Beekdaelen:hover + .Beekdaelen-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Brunssum {
@@ -448,7 +449,7 @@ font-size: 4vw;
 }
 .Brunssum:hover + .Brunssum-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Heerlen {
@@ -465,7 +466,7 @@ font-size: 4vw;
 }
 .Heerlen:hover + .Heerlen-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 
@@ -484,7 +485,7 @@ font-size: 4vw;
 }
 .Landgraaf:hover + .Landgraaf-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Kerkrade {
@@ -502,7 +503,7 @@ font-size: 4vw;
 }
 .Kerkrade:hover + .Kerkrade-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Voerendaal {
@@ -520,7 +521,7 @@ font-size: 4vw;
 }
 .Voerendaal:hover + .Voerendaal-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Simpelveld {
@@ -538,7 +539,7 @@ font-size: 4vw;
 }
 .Simpelveld:hover + .Simpelveld-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Valkenburg {
@@ -556,7 +557,7 @@ font-size: 4vw;
 }
 .Valkenburg:hover + .Valkenburg-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Meerssen {
@@ -574,7 +575,7 @@ font-size: 4vw;
 
 .Meerssen:hover + .Meerssen-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Gulpen {
@@ -591,7 +592,7 @@ font-size: 4vw;
 }
 .Gulpen:hover + .Gulpen-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Vaals {
@@ -609,7 +610,7 @@ font-size: 4vw;
 
 .Vaals:hover + .Vaals-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Eijsden {
@@ -626,7 +627,7 @@ font-size: 4vw;
 }
 .Eijsden:hover + .Eijsden-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 .Maastricht {
@@ -643,5 +644,5 @@ font-size: 4vw;
 }
 .Maastricht:hover + .Maastricht-r {
   opacity: 1;
-font-size: 4vw;
+font-size: 2vw;
 }

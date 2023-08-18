@@ -234,7 +234,8 @@ ul li::before {
 .Nederweert-r,
 .Maasgouw-r, 
 .Echt-Susteren-r {
-  width: 1vw;
+background: red;  
+width: 1vw;
   right: 90vw;
   top: 50vw;
 
