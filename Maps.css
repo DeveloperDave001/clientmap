@@ -53,7 +53,6 @@ p{
   align-items: center;
   justify-content: center;
   padding: 2vw 2vw;
-  border: #000 solid;
 }
 
 
@@ -66,21 +65,21 @@ p{
   animation: pop 20s linear infinite;
   margin-top: .5vw;
 }
-@keyframes pop{
 
-  50%{
-    color: #262626;
-  }
-}
 
 #region-info{
   border: #000 solid;
-  font-size: 1.3vw;
+  font-size: 1.6vw;
 }
 
 #region-list{
-  border: #000 solid;
-  font-size: 1.3vw;
+/*   border: #000 solid;
+ */  font-size: 1.5vw;
+}
+
+#remaining-text p{
+  border: #018dc0 solid 2px;
+  font-size: 1.6vw;
 }
 a {
   color: #0016be;

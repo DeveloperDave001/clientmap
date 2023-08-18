@@ -5,7 +5,7 @@ const secondMapInformationData = {
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Weert </h6>
+<h6 id = "region-name""> Weert </h6>
 <p id = "region-info">P*Q systematiek</p>
 
 
@@ -17,7 +17,7 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Nederweert </h6>
+<h6 id = "region-name""> Nederweert </h6>
 <p id = "region-info">P*Q systematiek</p>
 `,
   Leudal: `
@@ -25,8 +25,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Leudal</h6>
-<p>P*Q systematiek.</p>
+<h6 id = "region-name""> Leudal</h6>
+<p id = "region-info">P*Q systematiek.</p>
 
 </div>
 `,
@@ -35,8 +35,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Roermond</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Roermond</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 </div>
 `,
   Maasgouw: `
@@ -44,8 +44,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Maasgouw</h6>
-<p>P*Q systematiek.</p>
+<h6 id = "region-name""> Maasgouw</h6>
+<p id = "region-info">P*Q systematiek.</p>
 
 </div>
 `,
@@ -54,8 +54,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Roerdalen</h6>
-<p>P*Q systematiek.</p>
+<h6 id = "region-name""> Roerdalen</h6>
+<p id = "region-info">P*Q systematiek.</p>
 
 </div>
 `,
@@ -64,8 +64,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Echt-Susteren</h6>
-<p>P*Q systematiek.</p>
+<h6 id = "region-name""> Echt-Susteren</h6>
+<p id = "region-info">P*Q systematiek.</p>
 
 </div>
 `,
@@ -74,8 +74,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Sittard-Geleen</h6>
-<p>P*Q systematiek.</p>
+<h6 id = "region-name""> Sittard-Geleen</h6>
+<p id = "region-info">P*Q systematiek.</p>
 
 </div>
 `,
@@ -83,8 +83,8 @@ Regio/gemeente</h6>
 <div class="Stein-info" id="Stein-info">
 <h6 id = "region">
 Regio/gemeente</h6>
-<h6 id = "region-name"> Stein</h6>
-<p>P*Q systematiek.</p>
+<h6 id = "region-name""> Stein</h6>
+<p id = "region-info">P*Q systematiek.</p>
 
 </div>
 `,
@@ -93,8 +93,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Beek</h6>
-<p>P*Q - systematiek</p>
+<h6 id = "region-name""> Beek</h6>
+<p id = "region-info">P*Q - systematiek</p>
 
 </div>
 `,
@@ -103,8 +103,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Beekdaelen</h6>
-<p>P*Q systematiek.</p>
+<h6 id = "region-name""> Beekdaelen</h6>
+<p id = "region-info">P*Q systematiek.</p>
 
 </div>
 `,
@@ -113,11 +113,11 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Brunssum</h6>
-<p>Samenwerkingsverband ‘Samen Kracht Brunssum’. 
+<h6 id = "region-name""> Brunssum</h6>
+<p id = "region-info">Samenwerkingsverband ‘Samen Kracht Brunssum’. 
 Betrokken organisaties: </p>
 
-<p style="margin-top:10px; class="preffered">5 Preferred suppliers zijn door 
+<p id = "region-info">5 Preferred suppliers zijn door 
 gemeenten geselecteerd:  </p>
 
 <ul style="margin-top:30px;" id="region-list">
@@ -128,11 +128,11 @@ gemeenten geselecteerd:  </p>
 <li>Zorggroep</li>
 <li>MeanderGroep</li>
 </ul>
-
+<div id="remaining-text">
 <p style="margin-top:30px; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
 <p style="margin-top:30px; ">Voor meer informatie zie:</p>
 <p style="margin-top:30px; "><a href="https://www.levantogroep.nl/samenwerkingen/samenkracht-brunssum">https://www.levantogroep.nl/samenwerkingen/samenkracht-brunssum</a></p>
-
+</div>
 
 
 
@@ -143,7 +143,7 @@ gemeenten geselecteerd:  </p>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Heerlen</h6>
+<h6 id = "region-name""> Heerlen</h6>
 <p id = "region-info">Coöperatie ‘Heerlen STAND-BY’. Betrokken organisaties: 
 </p>
 
@@ -159,11 +159,12 @@ Regio/gemeente</h6>
 <li>SGL en Zorggroep Triade</li>
 </ul>
 
+<div id="remaining-text">
 <p style="margin-top: .5vw; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
-
 <p style="margin-top: .5vw; ">Voor meer informatie zie:</p>
-
 <p style="margin-top: .5vw; "><a href="https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by">https://www.levantogroep.nl/samenwerkingen/heerlen-stand-by</a></p>
+</div>
+
 </div>
 `,
   Landgraaf: `
@@ -171,8 +172,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Landgraaf</h6>
-<p>Samenwerkingsverband ‘Met Elkaar Landgraaf’ (MEL). Betrokken organisaties: 
+<h6 id = "region-name""> Landgraaf</h6>
+<p id = "region-info">Samenwerkingsverband ‘Met Elkaar Landgraaf’ (MEL). Betrokken organisaties: 
 </p>
 
 <ul style="margin-top:30px;" id="region-list">
@@ -184,11 +185,11 @@ Regio/gemeente</h6>
 <li>Relim-Schoon GMS en SGL.</li>
 </ul>
 
+<div id="remaining-text">
 <p style="margin-top:30px; ">Financiering middels lumpsum voor samenwerkingsverband.</p>
-
 <p style="margin-top:30px; ">Voor meer informatie zie:</p>
-
 <p style="margin-top:30px; "><a href="https://www.levantogroep.nl/samenwerkingen/met-elkaar-landgraaf">https://www.levantogroep.nl/samenwerkingen/met-elkaar-landgraaf</a></p>
+</div>
 
 </div>
 `,
@@ -197,8 +198,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Kerkrade</h6>
-<p>P*Q systematiek</p>
+<h6 id = "region-name""> Kerkrade</h6>
+<p id = "region-info">P*Q systematiek</p>
 
 
 `,
@@ -207,16 +208,16 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Voerendaal</h6>
-<p>P*Q systematiek</p>
+<h6 id = "region-name""> Voerendaal</h6>
+<p id = "region-info">P*Q systematiek</p>
 </div>
 `,
   Simpelveld: `
 <div class="Simpelveld-info" id="Simpelveld-info">
 <p id = "region">Regio/Simpelveld</p>
 
-<h6 id = "region-name"> Simpelveld</h6>
-<p>P*Q systematiek</p>
+<h6 id = "region-name""> Simpelveld</h6>
+<p id = "region-info">P*Q systematiek</p>
 
 </div>
 `,
@@ -225,9 +226,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Valkenburg</h6>
-  <p style="width:300px; margin-top:50px; 
-  class="preffered">5 Preferred suppliers
+<h6 id = "region-name""> Valkenburg</h6>
+  <p id = "region-info">5 Preferred suppliers
    zijn door 
   gemeenten geselecteerd: </p>
   
@@ -238,18 +238,20 @@ Regio/gemeente</h6>
 <li> Radar</li>
 <li> Summa (samenwerkingsverband)</li>
 </ul>
+<div id="remaining-text">
+<p>Financiering middels 
+lumpsum per organisatie</p>  
+</div>  
 
-<p style="width:270px; margin-top:50px; ">Financiering middels 
-lumpsum per organisatie</p>    </div>
+</div>
 `,
   Meerssen: `
 <div class="Meerssen-info" id="Meerssen-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Meerssen</h6>
-  <p style="width:300px; margin-top:50px; 
-  class="preffered">5 Preferred suppliers
+<h6 id = "region-name""> Meerssen</h6>
+  <p id = "region-info">5 Preferred suppliers
    zijn door 
   gemeenten geselecteerd: </p>
   
@@ -260,17 +262,20 @@ Regio/gemeente</h6>
 <li> Radar</li>
 <li> Summa (samenwerkingsverband)</li>
 </ul>
+<div id="remaining-text">
+<p>Financiering middels 
+lumpsum per organisatie</p>    
+</div>
 
-<p style="width:270px; margin-top:50px; ">Financiering middels 
-lumpsum per organisatie</p>    </div>
+</div>
 `,
   Gulpen: `
 <div class="Gulpen-info" id="Gulpen-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Gulpen</h6>
-<p>Arrangementen - systematiek</p>
+<h6 id = "region-name""> Gulpen</h6>
+<p id = "region-info">Arrangementen - systematiek</p>
 
 </div>
 `,
@@ -279,8 +284,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Vaals</h6>
-<p>Arrangementen - systematiek</p>
+<h6 id = "region-name""> Vaals</h6>
+<p id = "region-info">Arrangementen - systematiek</p>
 
 </div>
 `,
@@ -289,8 +294,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Eijsden-Margraten</h6>
-<p>Arrangementen - systematiek</p>
+<h6 id = "region-name""> Eijsden-Margraten</h6>
+<p id = "region-info">Arrangementen - systematiek</p>
 
 </div>
 `,
@@ -300,9 +305,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6 id = "region-name"> Maastricht </h6>
-  <p style="width:300px; margin-top:50px; 
-  class="preffered">5 Preferred suppliers
+<h6 id = "region-name""> Maastricht </h6>
+  <p id = "region-info">5 Preferred suppliers
    zijn door 
   gemeenten geselecteerd: </p>
   
@@ -313,9 +317,11 @@ Regio/gemeente</h6>
 <li> Radar</li>
 <li> Summa (samenwerkingsverband)</li>
 </ul>
-
-<p style="width:270px; margin-top:50px; ">Financiering middels 
+<div id="remaining-text">
+<p>Financiering middels 
 lumpsum per organisatie</p>
+</div>
+
 
 </div>
 `,
@@ -338,8 +344,8 @@ const mapInformationData = {
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Weert</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Weert</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 
 
@@ -350,16 +356,16 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Nederweert</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Nederweert</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Leudal</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Leudal</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -369,7 +375,7 @@ Regio/gemeente</h6>
 Regio/gemeente</h6>
 
 <h6> Roermond</h6>
-<p>Deze regio heeft geen informatie.</p>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 </div>
 `,
   Maasgouw: `
@@ -377,8 +383,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Maasgouw</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Maasgouw</h6>
+<pid = "region-info">Deze regio heeft geen informatie.</pid>
 
 </div>
 `,
@@ -387,8 +393,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Roerdalen</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Roerdalen</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -397,8 +403,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Echt-Susteren</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Echt-Susteren</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -407,8 +413,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Sittard-Geleen</h6>
-<p>P*Q - systematiek</p>
+<h6 id = "region-name""> Sittard-Geleen</h6>
+<p id = "region-info">P*Q - systematiek</p>
 
 </div>
 `,
@@ -417,8 +423,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Stein</h6>
-<p>P*Q - systematiek</p>
+<h6 id = "region-name""> Stein</h6>
+<p id = "region-info">P*Q - systematiek</p>
 
 </div>
 `,
@@ -427,8 +433,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Beek</h6>
-<p>P*Q - systematiek</p>
+<h6 id = "region-name""> Beek</h6>
+<p id = "region-info">P*Q - systematiek</p>
 </div>
 `,
   Beekdaelen: `
@@ -436,10 +442,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Beekdaelen</h6>
-<p>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
+<h6 id = "region-name""> Beekdaelen</h6>
+<p id = "region-info">Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
 
-<p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
+<p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
@@ -457,10 +463,11 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-
+id = "region-info"id = "region-info"id = "region-info"id = "region-info"
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
+</div>
 
 </div>
 `,
@@ -469,10 +476,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Brunssum</h6>
-<p>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
+<h6 id = "region-name""> Brunssum</h6>
+<p id = "region-info">Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
 
-<p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
+<p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
@@ -490,11 +497,11 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-
+<div id="remaining-text">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
-
+</div>
 
 
 
@@ -505,10 +512,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Heerlen</h6>
-<p>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
+<h6 id = "region-name""> Heerlen</h6>
+<p id = "region-info">Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
 
-<p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
+<p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
@@ -526,20 +533,23 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-
+<div id="remaining-text">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
-<p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
+<p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>   
+</div>
+
+</div>
 `,
   Landgraaf: `
 <div class="Landgraaf-info" id="Landgraaf-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Landgraaf</h6>
-<p>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
+<h6 id = "region-name""> Landgraaf</h6>
+<p id = "region-info">Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
 
-<p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
+<p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:  </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
@@ -557,10 +567,11 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-
+<div id="remaining-text">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
+</div>
 
 </div>
 `,
@@ -569,10 +580,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Kerkrade</h6>
-<p>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
+<h6 id = "region-name""> Kerkrade</h6>
+<p id = "region-info">Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
 
-<p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
+<p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
@@ -590,10 +601,13 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-
+<div id="remaining-text">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
-<p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
+<p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    
+</div>
+
+</div>
 
 
 `,
@@ -602,10 +616,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Voerendaal</h6>
-<p>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
+<h6 id = "region-name""> Voerendaal</h6>
+<p id = "region-info">Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
 
-<p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers: </p>
+<p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
@@ -623,20 +637,23 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-
+<div id="remaining-text">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
-<p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
+<p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    
+</div>
+
+</div>
 `,
   Simpelveld: `
 <div class="Simpelveld-info" id="Simpelveld-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Simpelveld</h6>
-<p>Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
+<h6 id = "region-name""> Simpelveld</h6>
+<p id = "region-info">Samenwerkingsverband Beschermd Thuis Parkstad. Betrokken organisaties: </p>
 
-<p style="margin-top:5px; class="preffered">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
+<p id = "region-info">LEVANTOgroep, Leger des Heils, Mondriaan en de volgende onderaannemers:</p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Stichting Zonnewende</li>
@@ -654,10 +671,11 @@ Regio/gemeente</h6>
 <li>Tobas Jeugdhulp</li>
 <li>Zorggroep de Alliantie</li>
 </ul>
-
+<div id="remaining-text">
 <p style="margin-top:5px; ">Financiering via een lumpsum op samenwerkingsverband.</p>
 <p style="margin-top:5px; ">Voor meer informatie zie:</p>
 <p style="margin-top:5px; "><a href="https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad">https://www.levantogroep.nl/samenwerkingen/beschermd-thuis-parkstad</a></p>    </div>
+</div>
 
 </div>
 `,
@@ -666,16 +684,16 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Valkenburg</h6>
-<p> Arrangementen systematiek</p></div>
+<h6 id = "region-name""> Valkenburg</h6>
+<p id = "region-info"> Arrangementen systematiek</p></div>
 `,
   Meerssen: `
 <div class="Meerssen-info" id="Meerssen-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Meerssen</h6>
-<p> Arrangementen systematiek</p>
+<h6 id = "region-name""> Meerssen</h6>
+<p id = "region-info"> Arrangementen systematiek</p>
   
 </div>
 `,
@@ -684,8 +702,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Gulpen-Wittem</h6>
-<p> Arrangementen systematiek</p>
+<h6 id = "region-name"" > Gulpen-Wittem</h6>
+<p id = "region-info"> Arrangementen systematiek</p>
 
 </div>
 `,
@@ -694,7 +712,7 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Vaals</h6>
+<h6 id = "region-name""> Vaals</h6>
 <p> Arrangementen systematiek</p>
 
 </div>
@@ -704,8 +722,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Eijsden-Margraten</h6>
-<p> Arrangementen systematiek</p>
+<h6 id = "region-name""> Eijsden-Margraten</h6>
+<p id = "region-info"> Arrangementen systematiek</p>
 
 </div>
 `,
@@ -715,8 +733,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Maastricht</h6>
-  <p> Arrangementen systematiek</p>
+<h6 id = "region-name""> Maastricht</h6>
+  <p id = "region-info"> Arrangementen systematiek</p>
 
 
 </div>
@@ -740,8 +758,8 @@ const thirdMapInformationData = {
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6>Weert</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"">Weert</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 
 
@@ -752,16 +770,16 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Nederweert</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Nederweert</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6>Leudal</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"">Leudal</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -770,8 +788,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Roermond</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Roermond</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 </div>
 `,
   Maasgouw: `
@@ -779,8 +797,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Maasgouw</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Maasgouw</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -789,8 +807,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Roerdalen</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Roerdalen</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -799,8 +817,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Echt-Susteren</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name""> Echt-Susteren</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -809,10 +827,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Sittard-Geleen</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Sittard-Geleen</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -820,8 +838,9 @@ Regio/gemeente</h6>
 <li> Koraalgroep</li>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
-
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 </div>
 `,
@@ -830,10 +849,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Stein</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Stein</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -841,8 +860,9 @@ Regio/gemeente</h6>
 <li> Koraalgroep</li>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
-
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 </div>
 `,
@@ -851,10 +871,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Beek</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Beek</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -862,8 +882,9 @@ Regio/gemeente</h6>
 <li> Koraalgroep</li>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
-
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 </div>
 `,
@@ -872,10 +893,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Beekdaelen</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Beekdaelen</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -883,8 +904,10 @@ Regio/gemeente</h6>
 <li> Koraalgroep</li>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
+<div id = "region-info">
+<p>Arrangementen systematiek </p>
+</div>
 
-<p style="margin-top:5px; ">Arrangementen systematiek </p>
 </div>
 `,
   Brunssum: `
@@ -892,10 +915,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Brunssum</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Brunssum</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -903,8 +926,9 @@ Regio/gemeente</h6>
 <li> Koraalgroep</li>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
-
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 
 </div>
@@ -914,10 +938,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Heerlen</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Heerlen</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -925,9 +949,10 @@ Regio/gemeente</h6>
 <li> Koraalgroep</li>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
-</p>
 
 </div>
 `,
@@ -936,10 +961,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Landgraaf</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Landgraaf</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -948,8 +973,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 </div>
 `,
   Kerkrade: `
@@ -957,10 +983,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Kerkrade</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Kerkrade</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -969,8 +995,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 `,
   Voerendaal: `
@@ -978,10 +1005,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Voerendaal</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Voerendaal</h6>
+<p id = "region-info" >samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -990,7 +1017,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 </div>
 `,
   Simpelveld: `
@@ -998,10 +1027,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Simpelveld</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Simpelveld</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -1010,8 +1039,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 </div>
 `,
   Valkenburg: `
@@ -1019,10 +1049,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Valkenburg</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Valkenburg</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -1031,8 +1061,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 </div>
 `,
@@ -1041,10 +1072,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Meerssen</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Meerssen</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -1053,8 +1084,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 </div>
 `,
@@ -1063,10 +1095,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Gulpen</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Gulpen</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -1075,8 +1107,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiekp>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 </div>
 `,
   Vaals: `
@@ -1084,10 +1117,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Vaals</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Vaals</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -1096,8 +1129,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek<p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 </div>
 `,
@@ -1106,10 +1140,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Eijsden-Margraten</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Eijsden-Margraten</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -1118,8 +1152,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 </div>
 `,
   Maastricht: `
@@ -1128,10 +1163,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Maastricht</h6>
-<p>samenwerkingsverband:</p>
+<h6 id = "region-name""> Maastricht</h6>
+<p id = "region-info">samenwerkingsverband:</p>
 
-<p style="margin-top:5px; class="preffered">Combinatie Xonar, betrokken organisaties: </p>
+<p id = "region-info">Combinatie Xonar, betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>LEVANTOgroep</li>
@@ -1140,8 +1175,9 @@ Regio/gemeente</h6>
 <li> Kracht in Zorg en Hai5</li>
 </ul>
 
-<p style="margin-top:5px; ">Arrangementen systematiek </p>
-
+<div id = "region-info">
+<p>Arrangementen systematiek<p>
+</div>
 
 </div>
 `,
@@ -1173,10 +1209,8 @@ const forthMapInformationData = {
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Weert</h6>
-<p>Deze regio heeft geen informatie.</p>
-
-
+<h6 id = "region-name""> Weert</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -1185,16 +1219,16 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Nederweert</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"> Nederweert</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 `,
   Leudal: `
 <div class="Leudal-info" id="Leudal-info">
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Leudal</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"> Leudal</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -1203,8 +1237,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Roermond</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"> Roermond</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 </div>
 `,
   Maasgouw: `
@@ -1212,8 +1246,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Maasgouw</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"> Maasgouw</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -1222,8 +1256,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Roerdalen</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"> Roerdalen</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -1232,8 +1266,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Echt-Susteren</h6>
-<p>Deze regio heeft geen informatie.</p>
+<h6 id = "region-name"> Echt-Susteren</h6>
+<p id = "region-info">Deze regio heeft geen informatie.</p>
 
 </div>
 `,
@@ -1242,10 +1276,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Sittard-Geleen Regional Information</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Sittard-Geleen </h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1259,10 +1293,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
-
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 </div>
 `,
   Stein: `
@@ -1270,10 +1304,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Stein</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Stein</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1287,9 +1321,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 </div>
 `,
@@ -1298,10 +1333,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Beek</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Beek</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1315,9 +1350,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 </div>
 `,
@@ -1326,10 +1362,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Beekdaelen</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Beekdaelen</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1343,9 +1379,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 </div>
 `,
   Brunssum: `
@@ -1353,10 +1390,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Brunssum</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Brunssum</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1370,9 +1407,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 </div>
 `,
@@ -1381,8 +1419,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Heerlen</h6>
-<p style="margin-top:5px; class="preffered">Coöperatie JenS. Betrokken partijen: </p>
+<h6 id = "region-name"> Heerlen</h6>
+<p id = "region-info">Coöperatie JenS. Betrokken partijen: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Alcander</li>
@@ -1393,9 +1431,10 @@ Regio/gemeente</h6>
 <li> Radar </li>
 <li> XONAR</li>
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Financiering via lumpsum voor coöperatie</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Financiering via lumpsum voor coöperatie</p>
+</div>
 
 </div>
 `,
@@ -1404,8 +1443,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Landgraaf</h6>
-<p style="margin-top:5px; class="preffered">Coöperatie JenS. Betrokken partijen: </p>
+<h6 id = "region-name"> Landgraaf</h6>
+<p id = "region-info">Coöperatie JenS. Betrokken partijen: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Alcander</li>
@@ -1416,9 +1455,10 @@ Regio/gemeente</h6>
 <li> Radar </li>
 <li> XONAR</li>
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Financiering via lumpsum voor coöperatie</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Financiering via lumpsum voor coöperatie</p>
+</div>
 
 
 </div>
@@ -1428,10 +1468,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Kerkrade</h6>
+<h6 id = "region-name"> Kerkrade</h6>
 <p>Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1445,9 +1485,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 </div>
 
 
@@ -1457,8 +1498,8 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Voerendaal</h6>
-<p style="margin-top:5px; class="preffered">Coöperatie JenS. Betrokken partijen: </p>
+<h6 id = "region-name"> Voerendaal</h6>
+<p id = "region-info">Coöperatie JenS. Betrokken partijen: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Alcander</li>
@@ -1469,9 +1510,10 @@ Regio/gemeente</h6>
 <li> Radar </li>
 <li> XONAR</li>
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 </div>
 
 
@@ -1482,10 +1524,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Simpelveld</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Simpelveld</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1499,9 +1541,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 </div>
 `,
@@ -1510,10 +1553,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Valkenburg</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Valkenburg</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1527,9 +1570,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 
 </div>
@@ -1539,10 +1583,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Meerssen</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Meerssen</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1556,9 +1600,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 
 </div>
@@ -1568,10 +1613,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Gulpen</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Gulpen</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1585,9 +1630,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 </div>
 `,
@@ -1596,10 +1642,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Vaals</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Vaals</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1613,9 +1659,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>\
+</div>
 
 
 </div>
@@ -1625,10 +1672,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Eijsden-Margraten</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Eijsden-Margraten</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1642,9 +1689,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 </div>
 `,
@@ -1654,10 +1702,10 @@ Regio/gemeente</h6>
 <h6 id = "region">
 Regio/gemeente</h6>
 
-<h6> Maastrcht</h6>
-<p>Samenwerkingsverband: Combinatie Mondriaan.</p>
+<h6 id = "region-name"> Maastrcht</h6>
+<p id = "region-info">Samenwerkingsverband: Combinatie Mondriaan.</p>
 
-<p style="margin-top:5px; class="preffered">Betrokken organisaties: </p>
+<p id = "region-info">Betrokken organisaties: </p>
 
 <ul style="margin-top:5px;" id="region-list">
 <li>Amacura</li>
@@ -1671,9 +1719,10 @@ Regio/gemeente</h6>
 <li> zorgen en zo</li>
 
 </ul>
-
-<p style="margin-top:5px; ">LEVANTOgroep is onderaannemer</p>
-<p style="margin-top:5px; ">Arrangementen systematiek</p>
+<div id = "region-info">
+<p>LEVANTOgroep is onderaannemer</p>
+<p>Arrangementen systematiek</p>
+</div>
 
 
 </div>
